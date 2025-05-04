@@ -1,0 +1,30 @@
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\Github\DCMS\Project\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\Github\DCMS\Project\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\Github\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+F:\Github\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Github\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\Github\DCMS\Project\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\Github\HealthDoc\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\Github\HealthDoc\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\Github\HealthDoc\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+F:\Github\HealthDoc\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Github\HealthDoc\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\Github\HealthDoc\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

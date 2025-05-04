@@ -1,0 +1,45 @@
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+F:\Github\DCMS\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+F:\Github\DCMS\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+F:\Github\DCMS\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+F:\Github\DCMS\Project\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+F:\Github\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+F:\Github\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+F:\Github\DCMS\Project\BusinessLogicLayer\obj\Debug\Business.450209FB.Up2Date
+F:\Github\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+F:\Github\DCMS\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+F:\Github\HealthDoc\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+F:\Github\HealthDoc\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+F:\Github\HealthDoc\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+F:\Github\HealthDoc\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+F:\Github\HealthDoc\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+F:\Github\HealthDoc\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+F:\Github\HealthDoc\BusinessLogicLayer\obj\Debug\Business.450209FB.Up2Date
+F:\Github\HealthDoc\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+F:\Github\HealthDoc\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
