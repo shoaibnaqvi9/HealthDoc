@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "F:\\Github\\HealthDoc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\admin_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\admin_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\admin_portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\admin_portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +31,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "admin_login.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\admin_login.cs",
+              "RelativeDocumentMoniker": "Project\\admin_login.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\admin_login.cs [Design]",
+              "RelativeToolTip": "Project\\admin_login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:36:00.144Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin_Portal.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Admin_Portal.cs",
+              "RelativeDocumentMoniker": "Project\\Admin_Portal.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Admin_Portal.cs [Design]",
+              "RelativeToolTip": "Project\\Admin_Portal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:35:51.878Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Project\\Program.cs",
