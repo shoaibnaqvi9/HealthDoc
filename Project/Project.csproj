@@ -59,11 +59,11 @@
     <Compile Include="admin_login.Designer.cs">
       <DependentUpon>admin_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin_Portal.cs">
+    <Compile Include="admin_portal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin_Portal.Designer.cs">
-      <DependentUpon>Admin_Portal.cs</DependentUpon>
+    <Compile Include="admin_portal.Designer.cs">
+      <DependentUpon>admin_portal.cs</DependentUpon>
     </Compile>
     <Compile Include="admin_registration.cs">
       <SubType>Form</SubType>
@@ -142,8 +142,8 @@
     <EmbeddedResource Include="admin_login.resx">
       <DependentUpon>admin_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin_Portal.resx">
-      <DependentUpon>Admin_Portal.cs</DependentUpon>
+    <EmbeddedResource Include="admin_portal.resx">
+      <DependentUpon>admin_portal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="admin_registration.resx">
       <DependentUpon>admin_registration.cs</DependentUpon>

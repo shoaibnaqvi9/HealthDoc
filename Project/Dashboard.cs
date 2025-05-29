@@ -81,5 +81,10 @@ namespace HealthDoc
             this.Close();
             Environment.Exit(0);
         }
+
+        private void lblDC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

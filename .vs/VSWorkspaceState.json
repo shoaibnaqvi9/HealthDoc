@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Project"
   ],
-  "SelectedNode": "\\HealthDoc.sln",
+  "SelectedNode": "\\Project\\admin_login.cs",
   "PreviewInSolutionExplorer": false
 }

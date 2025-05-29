@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "F:\\Github\\HealthDoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\admin_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\admin_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\admin_portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|F:\\Github\\HealthDoc\\businesslogiclayer\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F8940C-EE66-4B0E-95B1-7847F4718AB2}|DataAccessLayer\\DataAccessLayer.csproj|F:\\Github\\HealthDoc\\dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F8940C-EE66-4B0E-95B1-7847F4718AB2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\dashboard_doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\dashboard_doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\dashboard_doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\dashboard_doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\dashboard_patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\dashboard_patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\project\\admin_portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\admin_portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|f:\\github\\healthdoc\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|F:\\Github\\HealthDoc\\Project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|Project\\Project.csproj|solutionrelative:Project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,39 +50,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "admin_login.cs [Design]",
-              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\admin_login.cs",
-              "RelativeDocumentMoniker": "Project\\admin_login.cs",
-              "ToolTip": "F:\\Github\\HealthDoc\\Project\\admin_login.cs [Design]",
-              "RelativeToolTip": "Project\\admin_login.cs [Design]",
+              "Title": "doctor_checkappointment.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\doctor_checkappointment.cs",
+              "RelativeDocumentMoniker": "Project\\doctor_checkappointment.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\doctor_checkappointment.cs",
+              "RelativeToolTip": "Project\\doctor_checkappointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:36:00.144Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-28T20:44:33.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Admin_Portal.cs [Design]",
-              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Admin_Portal.cs",
-              "RelativeDocumentMoniker": "Project\\Admin_Portal.cs",
-              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Admin_Portal.cs [Design]",
-              "RelativeToolTip": "Project\\Admin_Portal.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Dashboard_doctor.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Dashboard_doctor.cs",
+              "RelativeDocumentMoniker": "Project\\Dashboard_doctor.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Dashboard_doctor.cs",
+              "RelativeToolTip": "Project\\Dashboard_doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:35:51.878Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-28T20:42:04.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BLL.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\BLL.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\BLL.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\BLL.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\BLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:31:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\DataAccessLayer\\DAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DAL.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\DataAccessLayer\\DAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:30:57.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "doctor_checkappointment.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\doctor_checkappointment.cs",
+              "RelativeDocumentMoniker": "Project\\doctor_checkappointment.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\doctor_checkappointment.cs [Design]",
+              "RelativeToolTip": "Project\\doctor_checkappointment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:30:46.209Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard_patient.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Dashboard_patient.cs",
+              "RelativeDocumentMoniker": "Project\\Dashboard_patient.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Dashboard_patient.cs [Design]",
+              "RelativeToolTip": "Project\\Dashboard_patient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:21:59.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard_doctor.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Dashboard_doctor.cs",
+              "RelativeDocumentMoniker": "Project\\Dashboard_doctor.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Dashboard_doctor.cs [Design]",
+              "RelativeToolTip": "Project\\Dashboard_doctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:21:58.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Project\\Dashboard.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Project\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:21:33.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "admin_portal.cs [Design]",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\admin_portal.cs",
+              "RelativeDocumentMoniker": "Project\\admin_portal.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\Project\\admin_portal.cs [Design]",
+              "RelativeToolTip": "Project\\admin_portal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T21:35:51.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Github\\HealthDoc\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Project\\Program.cs",
@@ -62,8 +168,7 @@
               "RelativeToolTip": "Project\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:08:37.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T20:08:37.177Z"
             }
           ]
         }

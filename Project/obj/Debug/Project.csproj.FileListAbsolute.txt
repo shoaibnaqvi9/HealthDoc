@@ -26,3 +26,4 @@ F:\Github\HealthDoc\Project\obj\Debug\HealthDoc.patient_login.resources
 F:\Github\HealthDoc\Project\obj\Debug\HealthDoc.patient_registration.resources
 F:\Github\HealthDoc\Project\obj\Debug\HealthDoc.patient_update_delete.resources
 F:\Github\HealthDoc\Project\obj\Debug\HealthDoc.server_connection.resources
+F:\Github\HealthDoc\Project\bin\Debug\Guna.UI2.dll

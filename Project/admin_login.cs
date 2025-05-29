@@ -41,7 +41,7 @@ namespace HealthDoc
                 {
                     MessageBox.Show("LoggedIn Successfully");
                     this.Hide();
-                    Form f = new Admin_Portal();
+                    Form f = new admin_portal();
                     f.Show();
                 }
                 else

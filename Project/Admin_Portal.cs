@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HealthDoc
 {
-    public partial class Admin_Portal : Form
+    public partial class admin_portal : Form
     {
-        public Admin_Portal()
+        public admin_portal()
         {
             InitializeComponent();
         }

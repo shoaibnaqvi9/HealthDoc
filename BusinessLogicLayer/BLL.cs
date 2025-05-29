@@ -231,5 +231,23 @@ namespace BusinessLogicLayer
             d.ExecuteQuery();
             d.CloseConnection();
         }
+        public DataTable GetAppointmentsForDoctor(int doctorId)
+        {
+            DAL d = new DAL();
+            d.OpenConnection();
+            d.LoadSpParameters("_spgetPatientAppointmentForDoctor", doctorId);
+            DataTable dt = d.GetDataTable();
+            d.CloseConnection();
+            return dt;
+        }
+
+        public void UpdateAppointmentStatus(int appointmentId, string newStatus)
+        {
+            DAL d = new DAL();
+            d.OpenConnection();
+            d.LoadSpParameters("_spupdateAppointmentStatus", appointmentId, newStatus);
+            d.ExecuteQuery();
+            d.CloseConnection();
+        }
     }
 }

@@ -26,7 +26,7 @@ namespace HealthDoc
 
         private void Dashboard_doctor_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)

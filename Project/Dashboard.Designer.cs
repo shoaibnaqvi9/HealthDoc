@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.lblDC = new System.Windows.Forms.Label();
-            this.lblMS = new System.Windows.Forms.Label();
             this.lbladm = new System.Windows.Forms.Label();
             this.btnlgadm = new System.Windows.Forms.Button();
             this.btnrgadm = new System.Windows.Forms.Button();
@@ -42,25 +41,14 @@
             // 
             this.lblDC.AutoSize = true;
             this.lblDC.BackColor = System.Drawing.Color.LightGray;
-            this.lblDC.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDC.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDC.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblDC.Location = new System.Drawing.Point(113, 21);
+            this.lblDC.Location = new System.Drawing.Point(164, 9);
             this.lblDC.Name = "lblDC";
-            this.lblDC.Size = new System.Drawing.Size(304, 28);
+            this.lblDC.Size = new System.Drawing.Size(232, 38);
             this.lblDC.TabIndex = 60;
-            this.lblDC.Text = "DOCTOR CONSULTANT";
-            // 
-            // lblMS
-            // 
-            this.lblMS.AutoSize = true;
-            this.lblMS.BackColor = System.Drawing.Color.LightGray;
-            this.lblMS.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMS.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblMS.Location = new System.Drawing.Point(107, 54);
-            this.lblMS.Name = "lblMS";
-            this.lblMS.Size = new System.Drawing.Size(312, 28);
-            this.lblMS.TabIndex = 61;
-            this.lblMS.Text = "MANAGEMENT SYSTEM";
+            this.lblDC.Text = "HEALTHDOC";
+            this.lblDC.Click += new System.EventHandler(this.lblDC_Click);
             // 
             // lbladm
             // 
@@ -68,18 +56,18 @@
             this.lbladm.BackColor = System.Drawing.Color.Transparent;
             this.lbladm.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbladm.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lbladm.Location = new System.Drawing.Point(224, 297);
+            this.lbladm.Location = new System.Drawing.Point(199, 272);
             this.lbladm.Name = "lbladm";
-            this.lbladm.Size = new System.Drawing.Size(78, 22);
+            this.lbladm.Size = new System.Drawing.Size(153, 22);
             this.lbladm.TabIndex = 70;
-            this.lbladm.Text = "ADMIN";
+            this.lbladm.Text = "ADMIN PANEL";
             // 
             // btnlgadm
             // 
             this.btnlgadm.BackColor = System.Drawing.SystemColors.Control;
             this.btnlgadm.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlgadm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnlgadm.Location = new System.Drawing.Point(308, 291);
+            this.btnlgadm.Location = new System.Drawing.Point(319, 313);
             this.btnlgadm.Name = "btnlgadm";
             this.btnlgadm.Size = new System.Drawing.Size(126, 37);
             this.btnlgadm.TabIndex = 69;
@@ -92,7 +80,7 @@
             this.btnrgadm.BackColor = System.Drawing.SystemColors.Control;
             this.btnrgadm.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnrgadm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnrgadm.Location = new System.Drawing.Point(94, 291);
+            this.btnrgadm.Location = new System.Drawing.Point(91, 313);
             this.btnrgadm.Name = "btnrgadm";
             this.btnrgadm.Size = new System.Drawing.Size(126, 37);
             this.btnrgadm.TabIndex = 68;
@@ -114,7 +102,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(513, 12);
+            this.btnExit.Location = new System.Drawing.Point(534, 12);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(25, 25);
             this.btnExit.TabIndex = 72;
@@ -128,13 +116,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(550, 380);
+            this.ClientSize = new System.Drawing.Size(571, 379);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lbladm);
             this.Controls.Add(this.btnlgadm);
             this.Controls.Add(this.btnrgadm);
-            this.Controls.Add(this.lblMS);
             this.Controls.Add(this.lblDC);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dashboard";
@@ -149,7 +136,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblDC;
-        private System.Windows.Forms.Label lblMS;
         private System.Windows.Forms.Label lbladm;
         private System.Windows.Forms.Button btnlgadm;
         private System.Windows.Forms.Button btnrgadm;

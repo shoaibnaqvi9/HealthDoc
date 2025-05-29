@@ -33,7 +33,7 @@
             this.dgvDoctor = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.lblPRF = new System.Windows.Forms.Label();
-            this.btnAppoint = new System.Windows.Forms.Button();
+            this.btnUpdateStatus = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
@@ -60,7 +60,7 @@
             this.dgvDoctor.Cursor = System.Windows.Forms.Cursors.Default;
             this.dgvDoctor.Location = new System.Drawing.Point(55, 105);
             this.dgvDoctor.Name = "dgvDoctor";
-            this.dgvDoctor.Size = new System.Drawing.Size(434, 238);
+            this.dgvDoctor.Size = new System.Drawing.Size(630, 238);
             this.dgvDoctor.TabIndex = 77;
             this.dgvDoctor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDoctor_CellContentClick);
             // 
@@ -69,7 +69,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(220, 83);
+            this.label2.Location = new System.Drawing.Point(321, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 19);
             this.label2.TabIndex = 76;
@@ -81,26 +81,27 @@
             this.lblPRF.BackColor = System.Drawing.Color.Transparent;
             this.lblPRF.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPRF.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblPRF.Location = new System.Drawing.Point(103, 9);
+            this.lblPRF.Location = new System.Drawing.Point(217, 8);
             this.lblPRF.Name = "lblPRF";
             this.lblPRF.Size = new System.Drawing.Size(316, 28);
             this.lblPRF.TabIndex = 75;
             this.lblPRF.Text = "CHECK APPOINTMENTS";
             // 
-            // btnAppoint
+            // btnUpdateStatus
             // 
-            this.btnAppoint.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAppoint.Location = new System.Drawing.Point(55, 368);
-            this.btnAppoint.Name = "btnAppoint";
-            this.btnAppoint.Size = new System.Drawing.Size(107, 31);
-            this.btnAppoint.TabIndex = 80;
-            this.btnAppoint.Text = "Update";
-            this.btnAppoint.UseVisualStyleBackColor = true;
+            this.btnUpdateStatus.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateStatus.Location = new System.Drawing.Point(144, 371);
+            this.btnUpdateStatus.Name = "btnUpdateStatus";
+            this.btnUpdateStatus.Size = new System.Drawing.Size(107, 31);
+            this.btnUpdateStatus.TabIndex = 80;
+            this.btnUpdateStatus.Text = "Update";
+            this.btnUpdateStatus.UseVisualStyleBackColor = true;
+            this.btnUpdateStatus.Click += new System.EventHandler(this.btnUpdateStatus_Click);
             // 
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(217, 368);
+            this.btnBack.Location = new System.Drawing.Point(306, 371);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(107, 31);
             this.btnBack.TabIndex = 79;
@@ -111,7 +112,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(382, 368);
+            this.btnExit.Location = new System.Drawing.Point(471, 371);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(107, 31);
             this.btnExit.TabIndex = 78;
@@ -122,7 +123,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(507, 12);
+            this.btnClose.Location = new System.Drawing.Point(697, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 81;
@@ -136,9 +137,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(544, 411);
+            this.ClientSize = new System.Drawing.Size(734, 414);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnAppoint);
+            this.Controls.Add(this.btnUpdateStatus);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.dgvDoctor);
@@ -162,7 +163,7 @@
         private System.Windows.Forms.DataGridView dgvDoctor;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblPRF;
-        private System.Windows.Forms.Button btnAppoint;
+        private System.Windows.Forms.Button btnUpdateStatus;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnClose;

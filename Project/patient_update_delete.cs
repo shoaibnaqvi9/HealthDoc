@@ -19,7 +19,7 @@ namespace HealthDoc
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form f = new Admin_Portal();
+            Form f = new admin_portal();
             f.Show();
         }
 

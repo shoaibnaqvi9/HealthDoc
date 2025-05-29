@@ -35,6 +35,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblDoctor = new System.Windows.Forms.Label();
+            this.lblDC = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnExit
@@ -54,7 +55,7 @@
             this.lblDD.BackColor = System.Drawing.Color.Transparent;
             this.lblDD.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDD.ForeColor = System.Drawing.Color.Transparent;
-            this.lblDD.Location = new System.Drawing.Point(89, 24);
+            this.lblDD.Location = new System.Drawing.Point(88, 87);
             this.lblDD.Name = "lblDD";
             this.lblDD.Size = new System.Drawing.Size(236, 22);
             this.lblDD.TabIndex = 42;
@@ -104,6 +105,18 @@
             this.lblDoctor.Size = new System.Drawing.Size(0, 20);
             this.lblDoctor.TabIndex = 47;
             // 
+            // lblDC
+            // 
+            this.lblDC.AutoSize = true;
+            this.lblDC.BackColor = System.Drawing.Color.LightGray;
+            this.lblDC.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDC.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.lblDC.Location = new System.Drawing.Point(92, 9);
+            this.lblDC.Name = "lblDC";
+            this.lblDC.Size = new System.Drawing.Size(232, 38);
+            this.lblDC.TabIndex = 61;
+            this.lblDC.Text = "HEALTHDOC";
+            // 
             // Dashboard_doctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +124,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(725, 361);
+            this.Controls.Add(this.lblDC);
             this.Controls.Add(this.lblDoctor);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnExit);
@@ -135,5 +149,6 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblDoctor;
+        private System.Windows.Forms.Label lblDC;
     }
 }
