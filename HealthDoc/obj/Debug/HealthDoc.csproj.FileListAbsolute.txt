@@ -1,0 +1,126 @@
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\Project.exe
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\Project.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.exe
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.pdb
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.server_connection.resources
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.patient_registration.resources
+C:\Users\Shoaib Naqvi\source\repos\Project\Project\obj\Debug\Project.patient_login.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\Project.exe.config
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\Project.exe
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\Project.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\BusinessLogicLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\DataAccessLayer.dll
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\BusinessLogicLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\bin\Debug\DataAccessLayer.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.patient_login.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.patient_registration.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.server_connection.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.csproj.CopyComplete
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.exe
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.pdb
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.Dashboard_patient.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.patient_appointment.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.doctor_registration.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.doctor_login.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.admin_registration.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.admin_login.resources
+D:\PAF KIET\Fifth Semester\OOAD\Project\Project\Project\obj\Debug\Project.Dashboard.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\Project.exe
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\Project.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\DataAccessLayer.dll
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\bin\Debug\DataAccessLayer.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.admin_login.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.admin_registration.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.Dashboard.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.Dashboard_patient.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.doctor_login.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.doctor_registration.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.patient_appointment.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.patient_login.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.patient_registration.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.server_connection.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.csproj.CopyComplete
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.exe
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.pdb
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.Admin_Portal.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.patient_update_delete.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.Dashboard_doctor.resources
+C:\Users\Shoaib Naqvi\Documents\GitHub\DCMS\Project\Project\obj\Debug\Project.doctor_checkappointment.resources
+F:\Github\DCMS\Project\Project\bin\Debug\Project.exe.config
+F:\Github\DCMS\Project\Project\bin\Debug\Project.exe
+F:\Github\DCMS\Project\Project\bin\Debug\Project.pdb
+F:\Github\DCMS\Project\Project\bin\Debug\BusinessLogicLayer.dll
+F:\Github\DCMS\Project\Project\bin\Debug\DataAccessLayer.dll
+F:\Github\DCMS\Project\Project\bin\Debug\BusinessLogicLayer.pdb
+F:\Github\DCMS\Project\Project\bin\Debug\DataAccessLayer.pdb
+F:\Github\DCMS\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+F:\Github\DCMS\Project\Project\obj\Debug\Project.admin_login.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.Admin_Portal.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.admin_registration.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.Dashboard.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.Dashboard_doctor.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.Dashboard_patient.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.doctor_checkappointment.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.doctor_login.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.doctor_registration.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.patient_appointment.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.patient_login.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.patient_registration.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.patient_update_delete.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.Properties.Resources.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.server_connection.resources
+F:\Github\DCMS\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+F:\Github\DCMS\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+F:\Github\DCMS\Project\Project\obj\Debug\Project.csproj.Up2Date
+F:\Github\DCMS\Project\Project\obj\Debug\Project.exe
+F:\Github\DCMS\Project\Project\obj\Debug\Project.pdb
+F:\Github\HealthDoc\HealthDoc\bin\Debug\HealthDoc.exe.config
+F:\Github\HealthDoc\HealthDoc\bin\Debug\HealthDoc.exe
+F:\Github\HealthDoc\HealthDoc\bin\Debug\HealthDoc.pdb
+F:\Github\HealthDoc\HealthDoc\bin\Debug\BusinessLogicLayer.dll
+F:\Github\HealthDoc\HealthDoc\bin\Debug\Guna.UI2.dll
+F:\Github\HealthDoc\HealthDoc\bin\Debug\DataAccessLayer.dll
+F:\Github\HealthDoc\HealthDoc\bin\Debug\BusinessLogicLayer.pdb
+F:\Github\HealthDoc\HealthDoc\bin\Debug\DataAccessLayer.pdb
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.csproj.AssemblyReference.cache
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.admin_login.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.admin_portal.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.admin_registration.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.Dashboard.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.Dashboard_doctor.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.Dashboard_patient.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.doctor_checkappointment.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.doctor_login.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.doctor_registration.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.patient_appointment.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.patient_login.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.patient_registration.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.patient_update_delete.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.Properties.Resources.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.server_connection.resources
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.csproj.GenerateResource.cache
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.csproj.CoreCompileInputs.cache
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.csproj.Up2Date
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.exe
+F:\Github\HealthDoc\HealthDoc\obj\Debug\HealthDoc.pdb
