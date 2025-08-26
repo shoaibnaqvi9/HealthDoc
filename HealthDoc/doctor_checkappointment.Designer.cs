@@ -60,7 +60,7 @@
             this.dgvDoctor.Cursor = System.Windows.Forms.Cursors.Default;
             this.dgvDoctor.Location = new System.Drawing.Point(55, 105);
             this.dgvDoctor.Name = "dgvDoctor";
-            this.dgvDoctor.Size = new System.Drawing.Size(630, 238);
+            this.dgvDoctor.Size = new System.Drawing.Size(660, 238);
             this.dgvDoctor.TabIndex = 77;
             this.dgvDoctor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDoctor_CellContentClick);
             // 
@@ -90,7 +90,7 @@
             // btnUpdateStatus
             // 
             this.btnUpdateStatus.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateStatus.Location = new System.Drawing.Point(144, 371);
+            this.btnUpdateStatus.Location = new System.Drawing.Point(151, 371);
             this.btnUpdateStatus.Name = "btnUpdateStatus";
             this.btnUpdateStatus.Size = new System.Drawing.Size(107, 31);
             this.btnUpdateStatus.TabIndex = 80;
@@ -101,7 +101,7 @@
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(306, 371);
+            this.btnBack.Location = new System.Drawing.Point(313, 371);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(107, 31);
             this.btnBack.TabIndex = 79;
@@ -112,7 +112,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(471, 371);
+            this.btnExit.Location = new System.Drawing.Point(478, 371);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(107, 31);
             this.btnExit.TabIndex = 78;
@@ -123,7 +123,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(697, 12);
+            this.btnClose.Location = new System.Drawing.Point(724, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 81;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(734, 414);
+            this.ClientSize = new System.Drawing.Size(761, 417);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnUpdateStatus);
             this.Controls.Add(this.btnBack);

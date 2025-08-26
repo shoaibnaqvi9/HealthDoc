@@ -1,13 +1,13 @@
-﻿using System;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Configuration;
-using System.Web;
 
 namespace DataAccessLayer
 {
     public class DAL
     {
+        private static DAL _instance;
+        private static readonly object _lock = new object();
+
         private static System.Collections.Hashtable SqlparamCache = System.Collections.Hashtable.Synchronized(new System.Collections.Hashtable());
         private SqlConnection Connection = new SqlConnection();
         public static string ConnectionString = System.Configuration.ConfigurationSettings.AppSettings["dbCon"].ToString();
@@ -15,6 +15,25 @@ namespace DataAccessLayer
         private SqlDataAdapter DtAdapter = new SqlDataAdapter();
         private DataSet SqlDataSet = new DataSet();
         private DataTable SqlTable = new System.Data.DataTable();
+
+        private DAL()
+        {
+
+        }
+        public static DAL Instance
+        {
+            get
+            {
+                lock (_lock)
+                {
+                    if (_instance == null)
+                    {
+                        _instance = new DAL();
+                    }
+                    return _instance;
+                }
+            }
+        }
 
         public void UnLoadSpParameters()
         {
@@ -51,7 +70,6 @@ namespace DataAccessLayer
             MoveSqlParameters(ParaValues);
 
         }
-
         private void MoveSqlParameters(object[] Paras)
         {
             short ic;
@@ -71,19 +89,21 @@ namespace DataAccessLayer
         {
             return DbCommand.Parameters[P];
         }
-
-
-
         public bool OpenConnection()
         {
             try
             {
                 if (Connection.State == ConnectionState.Open) return true;
+
                 Connection = new SqlConnection();
                 Connection.ConnectionString = ConnectionString;
                 Connection.Open();
+
                 if (Connection.State == ConnectionState.Open)
                 {
+                    if (DbCommand == null)
+                        DbCommand = new SqlCommand();
+
                     DbCommand.Connection = Connection;
                     return true;
                 }
@@ -103,14 +123,15 @@ namespace DataAccessLayer
             if (Connection.State != ConnectionState.Closed)
             {
                 Connection.Close();
-                DbCommand.Dispose();
-                DbCommand = null;
-                DtAdapter.Dispose();
-                DtAdapter = null;
-                SqlDataSet.Dispose();
-                SqlDataSet = null;
-                SqlTable.Dispose();
-                SqlTable = null;
+
+                DtAdapter?.Dispose();
+                DtAdapter = new SqlDataAdapter();
+
+                SqlDataSet?.Dispose();
+                SqlDataSet = new DataSet();
+
+                SqlTable?.Dispose();
+                SqlTable = new DataTable();
             }
         }
 
@@ -136,25 +157,93 @@ namespace DataAccessLayer
             DbCommand.CommandText = SQLStatement;
             return DbCommand.ExecuteScalar();
         }
-
-
         public string ReturnValue(string _PName)
         {
             DbCommand.ExecuteNonQuery();
             return (string)DbCommand.Parameters[_PName].Value.ToString();
-
         }
-
         public DataTable GetDataTable()
         {
             DtAdapter.SelectCommand = DbCommand;
             DtAdapter.Fill(SqlTable);
             return SqlTable;
         }
-
         public SqlConnection ConnectionObject
         {
-            get { return this.Connection; }
+            get
+            {
+                return this.Connection;
+            }
+        }
+        public void UpdatePatient(int patientId, string contact)
+        {
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = "UPDATE Patients SET patientcontact = @contact WHERE patientid = @patientId";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@contact", contact);
+                    cmd.Parameters.AddWithValue("@patientId", patientId);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void DeletePatient(int patientId)
+        {
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = "DELETE FROM Patients WHERE patientid = @patientId";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@patientId", patientId);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+        public bool ValidatePatient(int patientId)
+        {
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = "SELECT COUNT(1) FROM patient_detail WHERE patientid = @patientId";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@patientId", patientId);
+                    int count = (int)cmd.ExecuteScalar();
+                    return count > 0;
+                }
+            }
+        }
+        public bool ValidateUser(string username, string password)
+        {
+            try
+            {
+                if (OpenConnection())
+                {
+                    DbCommand.CommandType = CommandType.Text;
+                    DbCommand.CommandText = "SELECT COUNT(*) FROM admin_detail WHERE adminname=@username AND adminpassword=@password";
+
+                    DbCommand.Parameters.Clear();
+                    DbCommand.Parameters.AddWithValue("@username", username);
+                    DbCommand.Parameters.AddWithValue("@password", password);
+
+                    int result = (int)DbCommand.ExecuteScalar();
+
+                    return result > 0;
+                }
+                return false;
+            }
+            catch (System.Exception ex)
+            {
+                throw new System.Exception("Database:ValidateUser:" + ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
         }
 
     }

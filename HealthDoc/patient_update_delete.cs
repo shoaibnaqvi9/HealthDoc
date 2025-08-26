@@ -1,5 +1,5 @@
-﻿using BusinessLogicLayer;
-using System;
+﻿using System;
+using BusinessLogicLayer;
 using System.Windows.Forms;
 
 namespace HealthDoc
@@ -25,7 +25,6 @@ namespace HealthDoc
 
         private void btnupdate_Click(object sender, EventArgs e)
         {
-
             try
             {
                 int pid = int.Parse(txtpatientid.Text);
@@ -37,8 +36,10 @@ namespace HealthDoc
                 PatientUpdate patientUpdate = new PatientUpdate();
                 patientUpdate.Patientid = pid;
                 patientUpdate.Patientcontact = pcontact;
+                BLL b = new BLL();
+                b.Patient_Update(pid, pcontact); 
                 patientUpdate.Register();
-                MessageBox.Show("Updated successfully");
+                MessageBox.Show("Updated successfully ✅","Success");
             }
             catch (FormatException ex)
             {
@@ -56,6 +57,11 @@ namespace HealthDoc
             {
                 int pid = int.Parse(txtpatientid.Text);
                 BLL b = new BLL();
+                if (!b.PatientExists(pid))
+                {
+                    MessageBox.Show("Patient ID not found.");
+                    return;
+                }
                 b.Patient_Delete(pid);
                 MessageBox.Show("Patient ID deleted successfully");
             }

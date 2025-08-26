@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using BusinessLogicLayer;
+using System.Windows.Forms;
+
 namespace HealthDoc
 {
     public partial class patient_registration : Form
@@ -28,23 +22,33 @@ namespace HealthDoc
         {
             try
             {
-                int Patientid = int.Parse(txtPatientid.Text);
+                if (!int.TryParse(txtPatientid.Text, out int Patientid))
+                {
+                    MessageBox.Show("Invalid Patient ID. Please enter a valid number.");
+                    return;
+                }
                 string Patientname = txtPatientname.Text;
-                DateTime Patientdob = DateTime.Parse(dTPicker1txtPatientdob.Text);
+                DateTime Patientdob = dTPicker1txtPatientdob.Value;
                 string Patientgender = txtPatientgender.Text;
                 string PatientCNIC = txtCNIC.Text;
-                int Patientweight = int.Parse(txtPatientweight.Text);
+                if (!int.TryParse(txtPatientweight.Text, out int Patientweight))
+                {
+                    MessageBox.Show("Invalid weight. Please enter a valid number.");
+                    return;
+                }
                 string Patientcontact = txtPatientcontact.Text;
                 string Patientaddress = txtPatientaddress.Text;
 
                 if (!System.Text.RegularExpressions.Regex.IsMatch(PatientCNIC, @"^\d{13}$"))
                 {
-                    throw new FormatException("Invalid CNIC format. CNIC must be 13 digits long and contain only numbers.");
+                    MessageBox.Show("CNIC must be exactly 13 digits.");
+                    return;
                 }
 
-                if (!System.Text.RegularExpressions.Regex.IsMatch(Patientcontact, @"^\d{12}$"))
+                if (!System.Text.RegularExpressions.Regex.IsMatch(Patientcontact, @"^\d{11,12}$"))
                 {
-                    throw new FormatException("Invalid contact number format. Contact number must be 12 digits long and contain only numbers.");
+                    MessageBox.Show("Contact number must be 11 or 12 digits.");
+                    return;
                 }
                 PatientRegistration patientRegistration = new PatientRegistration();
                 patientRegistration.Patientid = Patientid;
@@ -57,7 +61,15 @@ namespace HealthDoc
                 patientRegistration.Patientaddress = Patientaddress;
 
                 patientRegistration.Register();
-                MessageBox.Show("Registered");
+                MessageBox.Show("Registered successfully ✅", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                txtPatientid.Clear();
+                txtPatientname.Clear();
+                txtCNIC.Clear();
+                txtPatientweight.Clear();
+                txtPatientcontact.Clear();
+                txtPatientaddress.Clear();
+                dTPicker1txtPatientdob.Value = DateTime.Now;
             }
             catch (FormatException ex)
             {
@@ -77,7 +89,6 @@ namespace HealthDoc
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
-            Environment.Exit(0);
         }
     }
 }

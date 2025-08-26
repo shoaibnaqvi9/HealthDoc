@@ -1,15 +1,16 @@
-﻿using BusinessLogicLayer;
-using HealthDoc;
-using System;
+﻿using System;
+using BusinessLogicLayer;
 using System.Windows.Forms;
 
 namespace HealthDoc
 {
     public partial class doctor_login : Form
     {
+        private readonly BLL _bll;
         public doctor_login()
         {
             InitializeComponent();
+            _bll = new BLL();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -17,14 +18,21 @@ namespace HealthDoc
             try
             {
                 string log = txtLogin.Text;
-                BLL b = new BLL();
-                bool loginSuccessful = b.Login_doctor(log);
+
+
+                if (string.IsNullOrWhiteSpace(log))
+                {
+                    MessageBox.Show("Please enter Doctor ID");
+                    return;
+                }
+                
+                bool loginSuccessful = _bll.Login_doctor(log);
                 if (loginSuccessful)
                 {
-                    MessageBox.Show("LoggedIn Successfully");
-                    this.Hide();
-                    Form f = new Dashboard_doctor(log);
+                    MessageBox.Show("Logged in successfully ✅", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Dashboard_doctor f = new Dashboard_doctor(log);
                     f.Show();
+                    this.Close();
                 }
                 else
                 {
@@ -49,8 +57,7 @@ namespace HealthDoc
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Environment.Exit(0);
+            Application.Exit();
         }
 
         private void doctor_login_Load(object sender, EventArgs e)

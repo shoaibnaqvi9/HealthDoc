@@ -42,7 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL.cs" />
+    <Compile Include="CreateLoginCommand.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="INotificationObserver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">

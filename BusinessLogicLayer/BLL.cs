@@ -1,17 +1,35 @@
 ﻿using System;
 using System.Data;
-using System.Data.SqlClient;
 using DataAccessLayer;
+using System.Data.SqlClient;
 
 namespace BusinessLogicLayer
 {
+    public enum UserType { Admin, Patient, Doctor }
+    public interface IUserFactory
+    {
+        Registration CreateUser(UserType userType);
+    }
+
+    public class UserFactory : IUserFactory
+    {
+        public Registration CreateUser(UserType userType)
+        {
+            switch (userType)
+            {
+                case UserType.Admin: return new AdminRegistration();
+                case UserType.Patient: return new PatientRegistration();
+                case UserType.Doctor: return new DoctorRegistration();
+                default: throw new ArgumentException("Invalid user type");
+            }
+        }
+    }
     public abstract class Registration
     {
         protected DAL d;
-
         public Registration()
         {
-            d = new DAL();
+            d = DAL.Instance;
         }
 
         public abstract void Register();
@@ -118,136 +136,149 @@ namespace BusinessLogicLayer
     }
     public class BLL
     {
+        private DAL _dal;
+        public BLL()
+        {
+            _dal = DAL.Instance; // Using singleton
+        }
         public bool Login_patient(int log)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spselectpatient", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spselectpatient", log);
+            SqlDataReader reader = _dal.GetDataReader();
             bool loginSuccessful = reader.Read();
-            d.CloseConnection();
+            _dal.CloseConnection();
             return loginSuccessful;
         }
         public string Dashboard_patient(int log)
         {
             string patientName = string.Empty;
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spdasboardpatient", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spdasboardpatient", log);
+            SqlDataReader reader = _dal.GetDataReader();
             if (reader.Read())
             {
                 patientName = reader["patientname"].ToString();
             }
-            d.CloseConnection();
+            _dal.CloseConnection();
             return patientName;
         }
         public string Dashboard_patientname(int log)
         {
             string pid=null;
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spdashboard_patientname", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spdashboard_patientname", log);
+            SqlDataReader reader = _dal.GetDataReader();
             if (reader.Read())
             {
                 pid = reader["patientid"].ToString();
             }
-            d.CloseConnection();
+            _dal.CloseConnection();
             return pid;
         }
         public string Dashboard_doctor(string log)
         {
             string doctorName = string.Empty;
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spdasboarddoctor", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spdasboarddoctor", log);
+            SqlDataReader reader = _dal.GetDataReader();
             if (reader.Read())
             {
                 doctorName = reader["doctorname"].ToString();
             }
-            d.CloseConnection();
+            _dal.CloseConnection();
             return doctorName;
         }
         public string Dashboard_doctorname(string log)
         {
             string did = null;
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spdashboard_doctorname", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spdashboard_doctorname", log);
+            SqlDataReader reader = _dal.GetDataReader();
             if (reader.Read())
             {
                 did = reader["doctorid"].ToString();
             }
-            d.CloseConnection();
+            _dal.CloseConnection();
             return did;
         }
         public bool Login_doctor(string log)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spselectdoctor", log);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spselectdoctor", log);
+            SqlDataReader reader = _dal.GetDataReader();
             bool loginSuccessful = reader.Read();
-            d.CloseConnection();
+            _dal.CloseConnection();
             return loginSuccessful;
         }
 
         public bool Login_admin(string name, string password)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spselectadmin", name, password);
-            SqlDataReader reader = d.GetDataReader();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spselectadmin", name, password);
+            SqlDataReader reader = _dal.GetDataReader();
             bool loginSuccessful = reader.HasRows;
-            d.CloseConnection();
+            _dal.CloseConnection();
             return loginSuccessful;
         }
         public DataTable GetDoctorDetails()
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spgetdoctor_details");
-            DataTable dt = d.GetDataTable();
-            d.CloseConnection();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spgetdoctor_details");
+            DataTable dt = _dal.GetDataTable();
+            _dal.CloseConnection();
             return dt;
         }
         public DataTable GetPatientDetails()
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spgetPatientAppointment");
-            DataTable dt = d.GetDataTable();
-            d.CloseConnection();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spgetPatientAppointment");
+            DataTable dt = _dal.GetDataTable();
+            _dal.CloseConnection();
             return dt;
+        }
+        public void Patient_Update(int patientId, string contact)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(contact) || contact.Length != 12)
+                {
+                    throw new ArgumentException("Contact number must be exactly 12 digits.");
+                }
+
+                _dal.UpdatePatient(patientId, contact);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating patient: " + ex.Message);
+            }
         }
         public void Patient_Delete(int pid)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spdeletepatient_details", pid);
-            d.ExecuteQuery();
-            d.CloseConnection();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spdeletepatient_details", pid);
+            _dal.ExecuteQuery();
+            _dal.CloseConnection();
+        }
+        public bool PatientExists(int patientId)
+        {
+            return _dal.ValidatePatient(patientId);
         }
         public DataTable GetAppointmentsForDoctor(int doctorId)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spgetPatientAppointmentForDoctor", doctorId);
-            DataTable dt = d.GetDataTable();
-            d.CloseConnection();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spgetPatientAppointmentForDoctor", doctorId);
+            DataTable dt = _dal.GetDataTable();
+            _dal.CloseConnection();
             return dt;
         }
 
         public void UpdateAppointmentStatus(int appointmentId, string newStatus)
         {
-            DAL d = new DAL();
-            d.OpenConnection();
-            d.LoadSpParameters("_spupdateAppointmentStatus", appointmentId, newStatus);
-            d.ExecuteQuery();
-            d.CloseConnection();
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spupdateAppointmentStatus", appointmentId, newStatus);
+            _dal.ExecuteQuery();
+            _dal.CloseConnection();
         }
     }
 }
