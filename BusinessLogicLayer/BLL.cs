@@ -272,6 +272,14 @@ namespace BusinessLogicLayer
             _dal.CloseConnection();
             return dt;
         }
+        public DataTable GetAllAppointments()
+        {
+            _dal.OpenConnection();
+            _dal.LoadSpParameters("_spgetAllAppointments");
+            DataTable dt = _dal.GetDataTable();
+            _dal.CloseConnection();
+            return dt;
+        }
 
         public void UpdateAppointmentStatus(int appointmentId, string newStatus)
         {

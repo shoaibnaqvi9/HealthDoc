@@ -5,7 +5,6 @@ namespace BusinessLogicLayer
     public interface ICommand
     {
         void Execute();
-        void Undo();
     }
 
     public class LoginCommand : ICommand
@@ -38,12 +37,6 @@ namespace BusinessLogicLayer
                     break;
             }
         }
-
-        public void Undo()
-        {
-            // Logout logic if needed
-        }
-
         public bool GetResult() => _result;
     }
 
@@ -59,11 +52,6 @@ namespace BusinessLogicLayer
         public void Execute()
         {
             _registration.Register();
-        }
-
-        public void Undo()
-        {
-            // Could implement rollback logic here
         }
     }
 }

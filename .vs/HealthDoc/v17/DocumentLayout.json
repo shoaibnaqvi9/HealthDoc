@@ -5,6 +5,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\github\\healthdoc\\businesslogiclayer\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\github\\healthdoc\\businesslogiclayer\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\github\\healthdoc\\businesslogiclayer\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\github\\healthdoc\\businesslogiclayer\\inotificationobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\inotificationobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F8940C-EE66-4B0E-95B1-7847F4718AB2}|DataAccessLayer\\DataAccessLayer.csproj|f:\\github\\healthdoc\\dataaccesslayer\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F8940C-EE66-4B0E-95B1-7847F4718AB2}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\github\\healthdoc\\businesslogiclayer\\createlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A2E090-DDC7-4337-B361-E0A1690FAF46}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\createlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|f:\\github\\healthdoc\\healthdoc\\server_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|solutionrelative:healthdoc\\server_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|f:\\github\\healthdoc\\healthdoc\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|solutionrelative:healthdoc\\doctor_checkappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|f:\\github\\healthdoc\\healthdoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F86B42-26B9-4583-BF60-618F8B35EB16}|HealthDoc\\HealthDoc.csproj|solutionrelative:healthdoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +46,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\DataAccessLayer\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DatabaseConnection.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\DataAccessLayer\\DatabaseConnection.cs",
+              "RelativeToolTip": "DataAccessLayer\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:31:24.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\UserFactory.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\UserFactory.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\UserFactory.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\UserFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:30:23.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INotificationObserver.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\INotificationObserver.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\INotificationObserver.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\INotificationObserver.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\INotificationObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:29:41.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateLoginCommand.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\CreateLoginCommand.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\CreateLoginCommand.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\CreateLoginCommand.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\CreateLoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:28:02.808Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +108,61 @@
               "RelativeDocumentMoniker": "BusinessLogicLayer\\BLL.cs",
               "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\BLL.cs",
               "RelativeToolTip": "BusinessLogicLayer\\BLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T22:33:23.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\ICommand.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\ICommand.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\BusinessLogicLayer\\ICommand.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\ICommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:28:15.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "server_connection.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\HealthDoc\\server_connection.cs",
+              "RelativeDocumentMoniker": "HealthDoc\\server_connection.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\HealthDoc\\server_connection.cs",
+              "RelativeToolTip": "HealthDoc\\server_connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:32:43.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "doctor_checkappointment.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\HealthDoc\\doctor_checkappointment.cs",
+              "RelativeDocumentMoniker": "HealthDoc\\doctor_checkappointment.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\HealthDoc\\doctor_checkappointment.cs",
+              "RelativeToolTip": "HealthDoc\\doctor_checkappointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:15:25.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Github\\HealthDoc\\HealthDoc\\Program.cs",
+              "RelativeDocumentMoniker": "HealthDoc\\Program.cs",
+              "ToolTip": "F:\\Github\\HealthDoc\\HealthDoc\\Program.cs",
+              "RelativeToolTip": "HealthDoc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:43:37.914Z",
               "EditorCaption": ""
             }
           ]

@@ -45,42 +45,10 @@ namespace BusinessLogicLayer
                 obs.Update(message);
         }
     }
-
-    //public class AppointmentNotificationSystem : INotificationSubject
-    //{
-    //    private List<INotificationObserver> _observers = new List<INotificationObserver>();
-
-    //    public void Attach(INotificationObserver observer)
-    //    {
-    //        _observers.Add(observer);
-    //    }
-
-    //    public void Detach(INotificationObserver observer)
-    //    {
-    //        _observers.Remove(observer);
-    //    }
-
-    //    public void Notify(string message)
-    //    {
-    //        foreach (var observer in _observers)
-    //        {
-    //            observer.Update(message);
-    //        }
-    //    }
-
-    //    public void BookAppointment(AppointmentBooking appointment)
-    //    {
-    //        appointment.Register();
-    //        Notify($"New appointment booked: {appointment.appointmentPurpose} on {appointment.appointmentDate}");
-    //    }
-    //}
-
-    // Example observer implementation
     public class EmailNotification : INotificationObserver
     {
         public void Update(string message)
         {
-            // Simulate email sending
             Console.WriteLine($"Email sent: {message}");
         }
     }
@@ -89,7 +57,6 @@ namespace BusinessLogicLayer
     {
         public void Update(string message)
         {
-            // Simulate SMS sending
             Console.WriteLine($"SMS sent: {message}");
         }
     }

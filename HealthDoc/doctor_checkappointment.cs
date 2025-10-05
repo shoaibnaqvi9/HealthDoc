@@ -18,12 +18,15 @@ namespace HealthDoc
 
             doctorName = bll.Dashboard_doctor(doctorid);
             did = bll.Dashboard_doctorname(doctorid);
+            
             lbldoctor.Text = "Welcome, " + doctorName;
+
         }
         private void LoadAppointments()
         {
             int docId = Convert.ToInt32(did);
-            DataTable patientDetails = bll.GetAppointmentsForDoctor(docId);
+            //DataTable patientDetails = bll.GetAppointmentsForDoctor(docId);
+            DataTable patientDetails = bll.GetAllAppointments();
             dgvDoctor.DataSource = patientDetails;
 
             if (!dgvDoctor.Columns.Contains("NewStatus"))
@@ -74,12 +77,19 @@ namespace HealthDoc
             {
                 foreach (DataGridViewRow row in dgvDoctor.Rows)
                 {
-                    if (row.Cells["NewStatus"].Value != null && row.Cells["appointmentId"].Value != null)
+                    if (row.IsNewRow) continue;
                     {
-                        int appointmentId = Convert.ToInt32(row.Cells["appointmentId"].Value);
-                        string newStatus = row.Cells["NewStatus"].Value.ToString();
-                        bll.UpdateAppointmentStatus(appointmentId, newStatus);
+                        if (row.Cells["appointment_id"].Value != null && row.Cells["appointment_status"].Value != null)
+                        {
+                            int appointmentId = Convert.ToInt32(row.Cells["appointment_id"].Value);
+                            string newStatus = row.Cells["NewStatus"].Value?.ToString() ?? row.Cells["appointment_status"].Value.ToString();
+                            bll.UpdateAppointmentStatus(appointmentId, newStatus);
+                        }
                     }
+                }
+                foreach (DataGridViewColumn col in dgvDoctor.Columns)
+                {
+                    MessageBox.Show(col.Name);
                 }
                 MessageBox.Show("Appointment statuses updated successfully!", "Appointment Success");
                 LoadAppointments();
